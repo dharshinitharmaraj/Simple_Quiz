@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to the Quiz</title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+    <script src="/main.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>HTML Quiz</h1>
+        </div>
+    </header>
+
+    <div class="quiz">
+        <div class="Q">
+            <label>What does HTML stand for?</label>
+            <div class="validators">
+                <img src="/right.png" id="q1right">
+                <img src="/wrong.png" id="q1wrong">
+            </div><br>
+            <input type="radio" id="q1" name="q1" value="html">Hyper Text Mark Up Language</label><br>
+            <input type="radio" id="q1" name="q1" value="hlml">Hyper Link Markup Language<br>
+            <input type="radio" id="q1" name="q1" value="ht">Home Tools Markup Language<br>
+        </div>
+        <div class="Q">
+            <label>What is the correct HTML element for inserting a line break?</label>
+            <div class="validators">
+                <img src="/right.png" id="q2right">
+                <img src="/wrong.png" id="q2wrong">
+            </div><br>
+            <input type="radio" id="q2" name="q2" value="lb">lb<br>
+            <input type="radio" id="q2" name="q2" value="br">br<br>
+            <input type="radio" id="q2" name="q2" value="break">break<br>
+        </div>
+        <div class="Q">
+            <label>Choose the correct HTML element to define emphasized text </label>
+            <div class="validators">
+                <img src="/right.png" id="q3right">
+                <img src="/wrong.png" id="q3wrong">
+            </div><br>
+            <input type="radio" id="q3" name="q3" value="i">&lt;i&gt;<br>
+            <input type="radio" id="q3" name="q3" value="italic">&lt;italic&gt;<br>
+            <input type="radio" id="q3" name="q3" value="em">&lt;em&gt;<br>
+        </div>
+        <div class="Q">
+            <label>An &lt;iFrame&gt; is used to display a web page within a web page.</label>
+            <div class="validators">
+                <img src="/right.png" id="q4right">
+                <img src="/wrong.png" id="q4wrong">
+            </div><br>
+            <input type="radio" id="q4" name="q4" value="true">True<br>
+            <input type="radio" id="q4" name="q4" value="false">false<br>
+        </div>
+        <div class="Q">
+            <label>What does CSS stand for?</label>
+            <div class="validators">
+                <img src="/right.png" id="q5right">
+                <img src="/wrong.png" id="q5wrong">
+            </div><br>
+            <input type="radio" id="q5" name="q5" value="c">Computer Style Sheet<br>
+            <input type="radio" id="q5" name="q5" value="css">Cascading Style Sheet<br>
+            <input type="radio" id="q5" name="q5" value="cs">Creative Style Sheet<br>
+        </div>
+        <div class="center">
+            <button type="button" onclick="checkResult()">Submit Quiz</button>
+        </div>
+        <div id=main>
+
+        </div>
+
+        <div class="center">
+            <p id="results">
+
+            </p>
+        </div>
+        <div id="sample">
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
